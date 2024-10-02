@@ -7,8 +7,9 @@ export default function Footer() {
       <footer>
         <div className='footer-top'>
             <img src="/logo.png" alt="logo" />
-            <hr />
         </div>
+
+        <hr />
 
         <div className="footer-bottom">
             <p>Made with React and Rough Notation</p>
