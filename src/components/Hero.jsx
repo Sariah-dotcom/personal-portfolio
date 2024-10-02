@@ -30,7 +30,8 @@ export default function Hero() {
     <div id='hero'>
       <div className="hero-content">
         <h1>Hi, I'm <span ref={element1Ref}>Sariah</span></h1>
-        <p><span ref={element2Ref}>An aspiring frontend dev</span>, a music lover, a bookworm and the next <span ref={element3Ref}>female tony hawk</span></p>
+        <p><span ref={element2Ref}>An aspiring frontend dev</span>, a music lover, a bookworm and the next <span ref={element3Ref}>
+          female tony hawk</span></p>
       </div>
 
       <StickyIcons />
