@@ -132,8 +132,8 @@ li a{
 .hero-content p {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 0.9rem;
-  width: 90%;
+  font-size: 0.7rem;
+  width: 20rem;
   line-height: 150%;
   z-index: -1;
   color: #FF7A6B;
