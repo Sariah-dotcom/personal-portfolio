@@ -1,11 +1,18 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useLayoutEffect } from 'react';
+import gsap from 'gsap';
 import { annotate } from 'rough-notation';
-import StickyIcons from './StickyIcons.jsx'
+import StickyIcons from './StickyIcons.jsx';
 
 export default function Hero() {
     const element1Ref = useRef(null);
     const element2Ref = useRef(null);
     const element3Ref = useRef(null);
+    const heroText = useRef(null);
+    const iconsRef = useRef(null);
+
+    useLayoutEffect(()=>{
+      gsap.fromTo(heroText.current, {opacity:0, y:300}, {opacity:1, y:0, duration:1})
+    }, []);
 
     useEffect(() => {
         // Initialize the annotation
@@ -14,26 +21,30 @@ export default function Hero() {
         const annotation3 = annotate(element3Ref.current, { type: 'crossed-off', color: '#FFFFFF', strokeWidth: 1});
     
         // Start the animation
-        annotation1.show();
+        setTimeout(() => {
+          annotation1.show();
+        }, 500)
+      
 
         setTimeout(() => {
           annotation2.show();
-        }, 2000)
+        }, 1300)
       
         setTimeout(() => {
           annotation3.show();
-        }, 3000)
+        }, 2500)
 
     }, []);
 
+
+
   return (
     <div id='hero'>
-      <div className="hero-content">
+      <div className="hero-content" ref={heroText}>
         <h1>Hi, I'm <span ref={element1Ref}>Sariah</span></h1>
         <p><span ref={element2Ref}>An aspiring frontend dev</span>, a music lover, a bookworm and the next <span ref={element3Ref}>
           female tony hawk</span></p>
       </div>
-
       <StickyIcons />
     </div>
   )

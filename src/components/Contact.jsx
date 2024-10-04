@@ -12,7 +12,7 @@ function Contact() {
             linkAnnotation.show();
             setTimeout(() => {
               linkAnnotation.hide();
-            }, 2000); // Time after which the annotation hides (adjust as necessary)
+            }, 2000); // Time after which the annotation hides
         };
       
         const intervalId = setInterval(playIndefinitely, 3000);
@@ -28,7 +28,7 @@ function Contact() {
                 have questions, feel free to reach out!
             </p>
             <div className="doodle-container">
-                <p style={{ marginTop: '2rem'}}><span ref={linkRef}>Say hi!</span></p>
+                <a href="mailto:sariahkjackson@gmail.com" style={{ marginTop: '2rem', color:'#FFFFFF', textDecoration: 'none'}}><span ref={linkRef}>Say hi!</span></a>
                 <iframe src="https://giphy.com/embed/LsjOTIBgO2C4B7xWI9" style={{height:'3rem', width:'3rem'}} frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
             </div>
         </section>
