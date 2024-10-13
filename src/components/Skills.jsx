@@ -54,7 +54,7 @@ export default function Skills() {
 
         <div className="skill-icon">
             <RiTailwindCssFill color='#FF7A6B' style={{height:'3rem', width: '3rem'}} />
-            <p>Tailwind CSS</p>
+            <p>Tailwind</p>
         </div>
 
         <div className="skill-icon">
