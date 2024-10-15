@@ -5,7 +5,7 @@ import ProjectDetails from "./ProjectDetails";
 
 export default function Projects() {
   return (
-    <div id='page-section'>
+    <div id='projects' className='page-section'>
       <SectionTitle title='projects'/>
       <div className='projects'>
               <div className="card-row">

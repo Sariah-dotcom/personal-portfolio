@@ -26,7 +26,7 @@ export default function Skills() {
 
   },[]);
   return (
-    <div id='page-section' ref={skillsRef}>
+    <div className='page-section' ref={skillsRef}>
       
       <SectionTitle title='skills, tools & frameworks' />
       

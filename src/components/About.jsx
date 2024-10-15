@@ -23,11 +23,11 @@ export default function About() {
   },[]);
 
   return (
-    <div id='page-section' ref={aboutRef}>
+    <div className='page-section' id='about' ref={aboutRef}>
        <SectionTitle title="about" />
             
         <p>I'm Sariah Jackson, a Computer Science grad hailing from the beautiful island nation of St.Vincent & the Grenadines.
-          <br /><br />In 2020, I took a full-stack web development course and been hooked on web dev ever since, especially frontend.
+          <br /><br />Before starting university, I took a full-stack web development course and been hooked on web development, especially frontend development, ever since.
           When I'm not coding, I'm probably crocheting, reading sci-fi or falling off my skateboard.
         </p>
     </div>

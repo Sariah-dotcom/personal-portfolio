@@ -1,9 +1,12 @@
 * {
   margin: 0;
 }
+
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
+
 body {
   background-color: #000000;
   overflow-x: hidden;
@@ -30,7 +33,7 @@ a {
   font-family: 'Inter', sans-serif;
 }
 
-#page-section {
+.page-section {
   max-width: 100vw;
   padding: 3rem;
   margin-top: 5rem;
@@ -53,13 +56,13 @@ nav {
 }
 
 .logo {
-  height: 2.3rem;
-  width: 2.3rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 .hamburger-menu {
   color: #FF7A6B;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -76,10 +79,17 @@ ul li{
   list-style: none;
 }
 
-li a{
+.header-link li{
   color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.2rem;
   text-decoration: none;
 }
+
+.header-link {
+  text-decoration: none;
+}
+
 
 .desktop-nav-links li a:hover {
   color: #FF7A6B;
@@ -91,7 +101,7 @@ li a{
   right: -100%; /* Start off-screen */
   height: 100%;
   width: 80%;
-  background-color: #FF7A6B;
+  background-color: #ee513f;
   transition: right 0.2s ease-in; /* Animate the 'right' property */
   z-index: 1000; 
 }

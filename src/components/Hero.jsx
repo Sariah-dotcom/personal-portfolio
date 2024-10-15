@@ -42,7 +42,7 @@ export default function Hero() {
     <div id='hero'>
       <div className="hero-content" ref={heroText}>
         <h1>Hi, I'm <span ref={element1Ref}>Sariah</span></h1>
-        <p><span style={{ marginRight:'0.5rem'}} ref={element2Ref}>An aspiring frontend dev,</span>a bookworm and the next <span ref={element3Ref}>
+        <p><span style={{ marginRight:'0.5rem'}} ref={element2Ref}>Aspiring frontend developer,</span>bookworm and the next <span ref={element3Ref}>
           female tony hawk</span></p>
       </div>
       <StickyIcons />
