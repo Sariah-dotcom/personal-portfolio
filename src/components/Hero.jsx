@@ -5,6 +5,19 @@ import StickyIcons from './StickyIcons.jsx';
 import { Fade } from 'react-awesome-reveal';
 
 export default function Hero() {
+  const imgRef = useRef(null);
+
+  useLayoutEffect(()=>{
+    gsap.fromTo(imgRef.current, {y:-50},
+      {
+       y:0,
+        duration:1.5,
+        yoyo:true,
+        repeat:-1,
+        // ease: "elastic.out(0.5,0.75)"
+    });
+
+  },[]);
   return (
     <>
       <div id='hero'>
@@ -21,7 +34,7 @@ export default function Hero() {
           
           <div className='flex'>
             <img src="/3.png" alt="" />
-            <img src="/cat.png" alt="" className='absolute' />
+            <img src="/cat.png" alt="" className='absolute' ref={imgRef} />
           </div>
         
         </div>

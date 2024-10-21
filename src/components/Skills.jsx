@@ -63,7 +63,7 @@ export default function Skills() {
 
       <div className="skill-icon">
           <FaFigma color='#FF7A6B' className='h-[4rem] w-[4rem]' />
-          <p className='text-coral text-lg lg:text[1rem]'>Figma</p>
+          <p className='text-coral text-lg lg:text-[1rem]'>Figma</p>
       </div>
       </div>
     </Fade>
