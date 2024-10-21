@@ -38,32 +38,32 @@ export default function Skills() {
           
           <div className="skill-icon">
               <FaHtml5 color='#FF7A6B' className='h-[4rem] w-[4rem]' />
-              <p className='text-coral text-lg'>HTML</p>
+              <p className='text-coral text-lg lg:text[1rem]'>HTML</p>
           </div>
 
           <div className="skill-icon">
               <FaCss3Alt color='#FF7A6B' className='h-[4rem] w-[4rem]'/>
-              <p className='text-coral text-lg'>CSS</p>
+              <p className='text-coral text-lg lg:text[1rem]'>CSS</p>
           </div>
 
       <div className="skill-icon">
           <IoLogoJavascript color='#FF7A6B' className='h-[4rem] w-[4rem]' />
-          <p className='text-coral text-lg'>JavaScript</p>
+          <p className='text-coral text-lg lg:text[1rem]'>JavaScript</p>
       </div>
 
       <div className="skill-icon">
           <FaReact color='#FF7A6B' className='h-[4rem] w-[4rem]' />
-          <p className='text-coral text-lg'>React</p>
+          <p className='text-coral text-lg lg:text[1rem]'>React</p>
       </div>
 
       <div className="skill-icon">
           <RiTailwindCssFill color='#FF7A6B' className='h-[4rem] w-[4rem]' />
-          <p className='text-coral text-lg'>Tailwind</p>
+          <p className='text-coral text-lg lg:text[1rem]'>Tailwind</p>
       </div>
 
       <div className="skill-icon">
           <FaFigma color='#FF7A6B' className='h-[4rem] w-[4rem]' />
-          <p className='text-coral text-lg'>Figma</p>
+          <p className='text-coral text-lg lg:text[1rem]'>Figma</p>
       </div>
       </div>
     </Fade>

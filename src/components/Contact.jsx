@@ -27,7 +27,7 @@ function Contact() {
             <div id="contact">
             <Fade>
                 <SectionTitle title="get in touch" />
-                <p className='text-xl mb-10 lg:text-lg'>I'd love to collaborate on exciting projects or help bring your ideas to life through clean, 
+                <p className='text-xl mb-10 lg:text-[1rem]'>I'd love to collaborate on exciting projects or help bring your ideas to life through clean, 
                     responsive, and efficient code. Whether you're looking for a website, or just 
                     have questions, feel free to reach out!
                 </p>

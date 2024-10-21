@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
       
       <div className='flex flex-col gap-7'>
         <h3>{props.projectTitle}</h3>
-        <p className='text-xl'>{props.projectDescription}</p>
+        <p className='text-xl lg:text-[1rem]'>{props.projectDescription}</p>
         <ProjectLinks demoLink={props.demoLink} codeLink={props.codeLink} />
 
       </div>

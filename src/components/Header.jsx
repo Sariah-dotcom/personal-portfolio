@@ -10,14 +10,14 @@ export default function Header() {
 
   return (
     <div>
-      <nav className='px-5 py-8 flex justify-between items-center lg:px-12'>
+      <nav className='px-5 py-8 flex justify-between items-center lg:px-20'>
         <img src="/logo.png" alt="logo" className='h-[3rem] w-[2.7rem]' />
 
         <div>
           <ul className=' hidden lg:flex lg:gap-10'>
-          <HashLink to='#about' className='text-sm font-inter text-white font-bold hover:text-coral'><li>About</li></HashLink>
-            <HashLink to='#projects' className='text-sm font-inter text-white font-bold hover:text-coral'><li>Projects</li></HashLink>
-            <HashLink to='#contact' className='text-sm font-inter text-white font-bold hover:text-coral'><li>Contact</li></HashLink>
+          <HashLink to='#about' className='text-sm font-inter text-white font-semibold hover:text-coral'><li>About</li></HashLink>
+            <HashLink to='#projects' className='text-sm font-inter text-white font-semibold hover:text-coral'><li>Projects</li></HashLink>
+            <HashLink to='#contact' className='text-sm font-inter text-white font-semibold hover:text-coral'><li>Contact</li></HashLink>
 
           </ul>
         </div>
