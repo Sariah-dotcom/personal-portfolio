@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #000;
+}
+
+h1, h2, h3, p{
+    color: #fff;
+    font-family: 'Inter';
+}
+
+h2, h3 {
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.page-section {
+    padding: 1rem 2rem;
+    margin-bottom: 8rem;
+}
+
+.skill-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.link {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.link a {
+    color: #FF7A6B;
+    font-family: 'Inter';
+}

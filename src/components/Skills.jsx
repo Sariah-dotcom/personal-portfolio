@@ -28,43 +28,48 @@ export default function Skills() {
 
   // },[]);
   return (
-    <div className='page-section'>
+    <div className='page-section' >
+      <div id='skills'>
       <SectionTitle title='skills, tools & frameworks' />
 
       <Fade direction='up' triggerOnce>
-      <div className="skill-icons">
-        
-        <div className="skill-icon">
-            <FaHtml5 color='#FF7A6B' style={{height:'3rem', width: '3rem'}} />
-            <p>HTML</p>
-        </div>
 
-        <div className="skill-icon">
-            <FaCss3Alt color='#FF7A6B' style={{height:'3rem', width: '3rem'}} />
-            <p>CSS</p>
-        </div>
+        <div className='flex flex-wrap gap-5 pt-5'>
+          
+          <div className="skill-icon">
+              <FaHtml5 color='#FF7A6B' className='h-[4rem] w-[4rem]' />
+              <p className='text-coral text-lg'>HTML</p>
+          </div>
 
-        <div className="skill-icon">
-            <IoLogoJavascript color='#FF7A6B' style={{height:'3rem', width: '3rem'}} />
-            <p>JavaScript</p>
-        </div>
+          <div className="skill-icon">
+              <FaCss3Alt color='#FF7A6B' className='h-[4rem] w-[4rem]'/>
+              <p className='text-coral text-lg'>CSS</p>
+          </div>
 
-        <div className="skill-icon">
-            <FaReact color='#FF7A6B' style={{height:'3rem', width: '3rem'}} />
-            <p>React</p>
-        </div>
-
-        <div className="skill-icon">
-            <RiTailwindCssFill color='#FF7A6B' style={{height:'3rem', width: '3rem'}} />
-            <p>Tailwind</p>
-        </div>
-
-        <div className="skill-icon">
-            <FaFigma color='#FF7A6B' style={{height:'3rem', width: '3rem'}} />
-            <p>Figma</p>
-        </div>
+      <div className="skill-icon">
+          <IoLogoJavascript color='#FF7A6B' className='h-[4rem] w-[4rem]' />
+          <p className='text-coral text-lg'>JavaScript</p>
       </div>
-      </Fade>
+
+      <div className="skill-icon">
+          <FaReact color='#FF7A6B' className='h-[4rem] w-[4rem]' />
+          <p className='text-coral text-lg'>React</p>
+      </div>
+
+      <div className="skill-icon">
+          <RiTailwindCssFill color='#FF7A6B' className='h-[4rem] w-[4rem]' />
+          <p className='text-coral text-lg'>Tailwind</p>
+      </div>
+
+      <div className="skill-icon">
+          <FaFigma color='#FF7A6B' className='h-[4rem] w-[4rem]' />
+          <p className='text-coral text-lg'>Figma</p>
+      </div>
+      </div>
+    </Fade>
+
+      </div>
+      
       
     </div>
   )

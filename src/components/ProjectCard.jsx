@@ -4,16 +4,16 @@ import ProjectLinks from './ProjectLinks'
 
 export default function ProjectCard(props) {
   return (
-    <div className='project-card'>
+    <div className='mb-20 flex flex-col gap-5'>
       <div>
-        <img className='project-img' src={props.projectImg}  alt='project image'/>
+        <img className='rounded-lg' src={props.projectImg}  alt='project image'/>
         <TechStack techStack={props.techStack} />
       </div>
       
       
-      <div>
-        <h3 className='project-title'>{props.projectTitle}</h3>
-        <p>{props.projectDescription}</p>
+      <div className='flex flex-col gap-7'>
+        <h3>{props.projectTitle}</h3>
+        <p className='text-xl'>{props.projectDescription}</p>
         <ProjectLinks demoLink={props.demoLink} codeLink={props.codeLink} />
 
       </div>

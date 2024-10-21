@@ -24,16 +24,16 @@ export default function Footer() {
 
   return (
     <div>
-      <footer>
+      <footer className='flex flex-col gap-10 p-3 items-center'>
         <div className='footer-top'>
-            <img src="/logo.png" alt="logo" />
+            <img src="/logo.png" alt="logo" className='h-[5rem] w-[5rem]' />
         </div>
 
-        <hr />
+        <hr className='text-coral w-1/2' />
 
-        <div className="footer-bottom">
-            <p>Made with <FaReact/> and <span ref={footerRef} ><a href="https://roughnotation.com/" target='_blank'> Rough Notation</a></span></p>
-            <p>© {year}</p>
+        <div className='flex flex-col gap-3 items-center'>
+            <p className='text-coral flex items-center gap-1'>Made with <FaReact/> and <span ref={footerRef} ><a href="https://roughnotation.com/" target='_blank'> Rough Notation</a></span></p>
+            <p className='text-coral'>© {year}</p>
         </div>
       </footer>
     </div>

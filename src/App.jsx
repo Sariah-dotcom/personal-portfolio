@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css';
+
 import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx';
