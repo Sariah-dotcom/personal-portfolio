@@ -1,8 +1,9 @@
 import React, { useRef, useLayoutEffect } from 'react'
 import SectionTitle from './SectionTitle'
-import { FaHtml5, FaCss3Alt, FaReact, FaFigma } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaFigma, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
 import { Fade } from 'react-awesome-reveal';
 
 import gsap from 'gsap';
@@ -37,34 +38,45 @@ export default function Skills() {
         <div className='flex flex-wrap gap-5 pt-5 lg:gap-20'>
           
           <div className="skill-icon">
-              <FaHtml5 color='#FF7A6B' className='h-[4rem] w-[4rem]' />
+              <FaHtml5 color='#FF7A6B' className='h-[3rem] w-[3rem]' />
               <p className='text-coral text-lg lg:text[1rem]'>HTML</p>
           </div>
 
           <div className="skill-icon">
-              <FaCss3Alt color='#FF7A6B' className='h-[4rem] w-[4rem]'/>
+              <FaCss3Alt color='#FF7A6B' className='h-[3rem] w-[3rem]'/>
               <p className='text-coral text-lg lg:text[1rem]'>CSS</p>
           </div>
 
       <div className="skill-icon">
-          <IoLogoJavascript color='#FF7A6B' className='h-[4rem] w-[4rem]' />
+          <IoLogoJavascript color='#FF7A6B' className='h-[3rem] w-[3rem]' />
           <p className='text-coral text-lg lg:text[1rem]'>JavaScript</p>
       </div>
 
       <div className="skill-icon">
-          <FaReact color='#FF7A6B' className='h-[4rem] w-[4rem]' />
+          <FaReact color='#FF7A6B' className='h-[3rem] w-[3rem]' />
           <p className='text-coral text-lg lg:text[1rem]'>React</p>
       </div>
 
       <div className="skill-icon">
-          <RiTailwindCssFill color='#FF7A6B' className='h-[4rem] w-[4rem]' />
+          <RiTailwindCssFill color='#FF7A6B' className='h-[3rem] w-[3rem]' />
           <p className='text-coral text-lg lg:text[1rem]'>Tailwind</p>
       </div>
 
       <div className="skill-icon">
-          <FaFigma color='#FF7A6B' className='h-[4rem] w-[4rem]' />
+          <FaFigma color='#FF7A6B' className='h-[3rem] w-[3rem]' />
           <p className='text-coral text-lg lg:text-[1rem]'>Figma</p>
       </div>
+
+      <div className="skill-icon">
+          <SiMongodb color='#FF7A6B' className='h-[3rem] w-[3rem]' />
+          <p className='text-coral text-lg lg:text-[1rem]'>MongoDB</p>
+      </div>
+
+      <div className="skill-icon">
+          <FaNodeJs color='#FF7A6B' className='h-[3rem] w-[3rem]' />
+          <p className='text-coral text-lg lg:text-[1rem]'>Node</p>
+      </div>
+
       </div>
     </Fade>
 
