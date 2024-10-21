@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <>
       <div id='hero'>
-        <div className='flex flex-col justify-center h-screen gap-10'>
+        <div className='flex flex-col justify-center h-screen gap-10 lg:flex-row lg:items-center'>
           <div className='px-8'>
             <h1 className='text-white text-7xl font-black mb-2'>hi, i'm sariah</h1>
             <p className='text-coral font-bold uppercase'>An aspiring frontend developer</p>

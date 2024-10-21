@@ -41,3 +41,15 @@ h3 {
     color: #FF7A6B;
     font-family: 'Inter';
 }
+
+@media screen and (min-width:1000px){
+    .page-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about, #projects, #contact, #skills {
+        width: 80%;
+    }
+}

@@ -34,7 +34,7 @@ export default function Skills() {
 
       <Fade direction='up' triggerOnce>
 
-        <div className='flex flex-wrap gap-5 pt-5'>
+        <div className='flex flex-wrap gap-5 pt-5 lg:gap-20'>
           
           <div className="skill-icon">
               <FaHtml5 color='#FF7A6B' className='h-[4rem] w-[4rem]' />

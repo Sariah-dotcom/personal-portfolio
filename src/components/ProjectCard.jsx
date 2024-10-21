@@ -4,9 +4,9 @@ import ProjectLinks from './ProjectLinks'
 
 export default function ProjectCard(props) {
   return (
-    <div className='mb-20 flex flex-col gap-5'>
+    <div className='mb-20 flex flex-col gap-5 lg:flex-row lg:items-center lg:gap-10'>
       <div>
-        <img className='rounded-lg' src={props.projectImg}  alt='project image'/>
+        <img className='rounded-lg lg:h-[20rem]' src={props.projectImg}  alt='project image'/>
         <TechStack techStack={props.techStack} />
       </div>
       

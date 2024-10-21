@@ -19,9 +19,10 @@ export default function Projects() {
 
   return (
     <div className='page-section'>
-      <SectionTitle title='projects'/>
 
       <div id='projects'>
+      <SectionTitle title='projects'/>
+
         <Fade direction='left'>
           <ProjectCard 
             projectImg='/whisk-n-dough-card.png'
@@ -33,7 +34,7 @@ export default function Projects() {
           />
         </Fade>
         
-        <Fade direction='right'>
+        <Fade direction='left'>
           <ProjectCard 
             projectImg='/whisk-n-dough-card.png'
             techStack={project2Stack}
