@@ -80,7 +80,7 @@ export default function Skills() {
       </div>
     </Fade>
 
-      </div>
+    </div>
       
       
     </div>
