@@ -26,7 +26,7 @@ export default function Footer() {
     <div>
       <footer className='flex flex-col gap-10 p-3 items-center'>
         <div className='footer-top'>
-            <img src="/logo.png" alt="logo" className='h-[5rem] w-[5rem]' />
+            <img src="/logo.png" alt="logo" className='h-[5rem] w-[5rem] lg:h-[3rem] lg:w-[3rem]' />
         </div>
 
         <hr className='text-coral w-1/2' />

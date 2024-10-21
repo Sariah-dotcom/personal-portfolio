@@ -27,7 +27,7 @@ export default function About() {
       
       <Fade triggerOnce direction='up' fraction='0.6'>
         <div>   
-          <p className='text-xl'>I'm Sariah Jackson, a Computer Science grad hailing from the beautiful island nation of St.Vincent & the Grenadines.
+          <p className='text-xl lg:text-lg'>I'm Sariah Jackson, a Computer Science grad hailing from the beautiful island nation of St.Vincent & the Grenadines.
             <br /><br />Before university, I took a full-stack web development course and have been passionate about web development, particularly front-end, ever since.
             When I'm not coding, I'm probably crocheting, reading sci-fi or falling off my skateboard.
           </p>
