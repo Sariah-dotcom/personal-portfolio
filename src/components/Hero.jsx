@@ -20,13 +20,13 @@ export default function Hero() {
   },[]);
   return (
     <>
-      <div id='hero'>
+      <div id='hero' className='flex justify-center'>
         <div className='flex flex-col justify-center h-screen gap-10 lg:flex-row lg:items-center'>
           
           <Fade direction='down' cascade>
           <div className='px-8'>
-            <h1 className='text-white text-7xl font-black mb-2'>hi, i'm sariah</h1>
-            <p className='text-coral font-bold uppercase'>An aspiring frontend developer</p>
+            <h1 className='text-white text-7xl font-black mb-2 md:text-8xl'>hi, i'm sariah</h1>
+            <p className='text-coral font-bold uppercase md:text-2xl'>An aspiring frontend developer</p>
           </div>
           </Fade>
           

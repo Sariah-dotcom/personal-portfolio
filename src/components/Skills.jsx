@@ -34,50 +34,51 @@ export default function Skills() {
       <SectionTitle title='skills, tools & frameworks' />
 
       <Fade direction='up' triggerOnce>
-
-        <div className='flex flex-wrap gap-5 pt-5 lg:gap-20'>
+        <div className='md:flex md:justify-center'>
+        <div className='flex flex-wrap gap-5 pt-5 lg:gap-20 md:w-[70%]'>
           
           <div className="skill-icon">
-              <FaHtml5 color='#FF7A6B' className='h-[3rem] w-[3rem]' />
-              <p className='text-coral text-lg lg:text[1rem]'>HTML</p>
+              <FaHtml5 color='#FF7A6B' className='stack-icon' />
+              <p className='text-coral text-lg md:text-[1.2rem]'>HTML</p>
           </div>
 
           <div className="skill-icon">
-              <FaCss3Alt color='#FF7A6B' className='h-[3rem] w-[3rem]'/>
-              <p className='text-coral text-lg lg:text[1rem]'>CSS</p>
+              <FaCss3Alt color='#FF7A6B' className='stack-icon'/>
+              <p className='text-coral text-lg md:text-[1.2rem]'>CSS</p>
           </div>
 
       <div className="skill-icon">
-          <IoLogoJavascript color='#FF7A6B' className='h-[3rem] w-[3rem]' />
-          <p className='text-coral text-lg lg:text[1rem]'>JavaScript</p>
+          <IoLogoJavascript color='#FF7A6B' className='stack-icon' />
+          <p className='text-coral text-lg md:text-[1.2rem]'>JavaScript</p>
       </div>
 
       <div className="skill-icon">
-          <FaReact color='#FF7A6B' className='h-[3rem] w-[3rem]' />
-          <p className='text-coral text-lg lg:text[1rem]'>React</p>
+          <FaReact color='#FF7A6B' className='stack-icon' />
+          <p className='text-coral text-lg md:text-[1.2rem]'>React</p>
       </div>
 
       <div className="skill-icon">
-          <RiTailwindCssFill color='#FF7A6B' className='h-[3rem] w-[3rem]' />
+          <RiTailwindCssFill color='#FF7A6B' className='stack-icon' />
           <p className='text-coral text-lg lg:text[1rem]'>Tailwind</p>
       </div>
 
       <div className="skill-icon">
-          <FaFigma color='#FF7A6B' className='h-[3rem] w-[3rem]' />
-          <p className='text-coral text-lg lg:text-[1rem]'>Figma</p>
+          <FaFigma color='#FF7A6B' className='stack-icon' />
+          <p className='text-coral text-lg md:text-[1.2rem]'>Figma</p>
       </div>
 
       <div className="skill-icon">
-          <SiMongodb color='#FF7A6B' className='h-[3rem] w-[3rem]' />
-          <p className='text-coral text-lg lg:text-[1rem]'>MongoDB</p>
+          <SiMongodb color='#FF7A6B' className='stack-icon' />
+          <p className='text-coral text-lg md:text-[1.2rem]'>MongoDB</p>
       </div>
 
       <div className="skill-icon">
-          <FaNodeJs color='#FF7A6B' className='h-[3rem] w-[3rem]' />
-          <p className='text-coral text-lg lg:text-[1rem]'>Node</p>
+          <FaNodeJs color='#FF7A6B' className='stack-icon' />
+          <p className='text-coral text-lg md:text-[1.2rem]'>Node</p>
       </div>
 
       </div>
+        </div>
     </Fade>
 
     </div>
