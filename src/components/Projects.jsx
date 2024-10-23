@@ -44,6 +44,17 @@ export default function Projects() {
             codeLink='https://github.com/Sariah-dotcom/whisk-n-dough'
           />
         </Fade>
+
+        <Fade direction='left'>
+          <ProjectCard 
+            projectImg='/card-2.png'
+            techStack={project2Stack}
+            projectTitle='Flex and Form Pilates'
+            projectDescription='A simple yet beautiful website for a pilates studio.'
+            demoLink="https://flex-n-form.vercel.app/"
+            codeLink='https://github.com/Sariah-dotcom/flex-and-form'
+          />
+        </Fade>
         
       </div>
     </div>
