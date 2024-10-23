@@ -23,7 +23,7 @@ export default function Projects() {
       <div id='projects'>
       <SectionTitle title='projects'/>
 
-        <Fade direction='left'>
+        <Fade direction='left' triggerOnce>
           <ProjectCard 
             projectImg='/whisk-n-dough-card.png'
             techStack={project1Stack}
@@ -34,7 +34,7 @@ export default function Projects() {
           />
         </Fade>
         
-        <Fade direction='left'>
+        <Fade direction='left' triggerOnce>
           <ProjectCard 
             projectImg='/whisk-n-dough-card.png'
             techStack={project2Stack}
@@ -45,7 +45,7 @@ export default function Projects() {
           />
         </Fade>
 
-        <Fade direction='left'>
+        <Fade direction='left' triggerOnce>
           <ProjectCard 
             projectImg='/card-2.png'
             techStack={project2Stack}

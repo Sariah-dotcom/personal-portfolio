@@ -13,8 +13,7 @@ export default function Hero() {
        y:0,
         duration:1.5,
         yoyo:true,
-        repeat:-1,
-        // ease: "elastic.out(0.5,0.75)"
+        repeat:-1
     });
 
   },[]);
@@ -27,6 +26,7 @@ export default function Hero() {
           <div className='px-8'>
             <h1 className='text-white text-7xl font-black mb-2 md:text-8xl'>hi, i'm sariah</h1>
             <p className='text-coral font-bold uppercase md:text-2xl'>An aspiring frontend developer</p>
+            {/* <p className='flex gap-2 opacity-50'>📍Kingstown, St.Vincent <img className='h-5' src="/flag.png" alt="" /></p> */}
           </div>
           </Fade>
           

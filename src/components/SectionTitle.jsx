@@ -14,7 +14,7 @@ export default function SectionTitle(props) {
 
   return (
     <div className='text-5xl mb-12'>
-        <h2 ref={titleRef}>{props.title}</h2>
+        <h2 className='mb-2' ref={titleRef}>{props.title}</h2>
     </div>
   )
 }

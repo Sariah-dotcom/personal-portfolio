@@ -35,15 +35,9 @@ h3 {
     gap: 0.5rem;
 }
 
-.link {
-    display: flex;
-    gap: 0.6rem;
-    align-items: center;
-}
 
-.link a {
-    color: #FF7A6B;
-    font-family: 'Inter';
+.link {
+    color: #fa5442;
 }
 
 .stack-icon {
@@ -63,7 +57,7 @@ h3 {
     }
 
     #about, #projects, #contact, #skills {
-        width: 80%;
+        width: 70%;
     }
 
     .stack-icon {

@@ -12,7 +12,8 @@ export default {
     colors:{
       'coral':'#FF7A6B',
       'black':'#000',
-      'white':'#FFF'
+      'white':'#FFF',
+      'dark-coral':'#fa5442'
     },
 
     extend: {},
