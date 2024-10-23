@@ -50,7 +50,7 @@ export default function Projects() {
             projectImg='/card-2.png'
             techStack={project2Stack}
             projectTitle='Flex and Form Pilates'
-            projectDescription='A simple yet beautiful website for a pilates studio.'
+            projectDescription='A creatively simple website for a pilates studio.'
             demoLink="https://flex-n-form.vercel.app/"
             codeLink='https://github.com/Sariah-dotcom/flex-and-form'
           />
