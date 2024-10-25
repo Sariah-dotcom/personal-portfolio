@@ -14,7 +14,7 @@ export default function Header() {
         <img src="/logo.png" alt="logo" className='h-[3rem] w-[2.7rem]' />
 
         <div>
-          <ul className=' hidden lg:flex lg:gap-10 text-coral'>
+          <ul className=' hidden lg:flex lg:gap-10 text-coral font-bold'>
           <HashLink to='#about' className=' md:text-lg text-sm font-inter hover:text-white'><li>About</li></HashLink>
             <HashLink to='#projects' className='md:text-lg text-sm font-inter hover:text-white'><li>Projects</li></HashLink>
             <HashLink to='#contact' className='md:text-lg text-sm font-inter hover:text-white'><li>Contact</li></HashLink>

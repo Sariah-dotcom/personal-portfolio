@@ -25,7 +25,7 @@ function Contact() {
     return(
         <section className="page-section">
             <div id="contact">
-            <Fade>
+            <Fade triggerOnce>
                 <SectionTitle title="get in touch" />
                 <p className='text-lg mb-10 md:text-[1.2rem]'>I'd love to collaborate on exciting projects or help bring your ideas to life through clean, 
                     responsive, and efficient code. Whether you're looking for a website, or just 
