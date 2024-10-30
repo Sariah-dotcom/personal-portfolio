@@ -7,7 +7,6 @@ import { FaLocationDot } from "react-icons/fa6";
 export default function StickyIcons() {
   return (
     <div className='flex flex-col items-center gap-7 fixed -right-5 bottom-3 z-20'>
-       <p className='rotate-90 flex items-center text-coral opacity-50 text-lg gap-2 mb-12 font-bold hover:opacity-100'><FaLocationDot /> St.Vincent</p>
 
         <a href="https://github.com/Sariah-dotcom" className='icon'>
           <FaGithub className='text-coral h-[2rem] w-[2rem]'/>
