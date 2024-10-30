@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export default function StickyIcons() {
   return (
-    <div className='flex flex-col items-center gap-7 fixed right-5 bottom-3 z-20'>
+    <div className='flex flex-col items-center gap-7 fixed right-3 bottom-3 z-20'>
 
         <a href="https://github.com/Sariah-dotcom" className='icon'>
           <FaGithub className='text-coral h-[2rem] w-[2rem]'/>
