@@ -1,4 +1,3 @@
-import ShimmerButton from "@/components/ui/shimmer-button";
 import ShineBorder from "@/components/ui/shine-border";
 export default function Contact() {
   return (
