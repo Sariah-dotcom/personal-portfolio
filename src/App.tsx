@@ -7,13 +7,16 @@ import Projects from './components/Projects.tsx'
 
 export default function App() {
   return (
-    <div className='px-8 flex flex-col gap-12'>
+    <div className='px-8 flex flex-col gap-12 lg:items-center'>
       <Hero />
       <Nav />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div className='lg:w-[65%] flex flex-col gap-12 lg:gap-[8rem]'>
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
+      
     </div>
   )
 }

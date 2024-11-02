@@ -57,9 +57,7 @@
   }
 }
 @layer base {
-  * {
-    @apply border-border;
-  }
+  
   body {
     background-color: black;
   }
@@ -68,4 +66,9 @@
     color: #FFFFFF;
     font-family: 'Inter';
   }
+}
+
+a {
+  position: relative;
+  z-index: 5;
 }
