@@ -17,7 +17,7 @@ export default function ProjectCard({ projectTitle, description, siteLink, codeL
         <div className="bg-white h-[15rem] rounded-[1rem]"></div>
       </a>
       
-      <div className="flex flex-col gap-3 mt-5">
+      <div className="flex flex-col gap-3 mt-5 lg:w-1/2">
         <h3 className="font-plus text-white text-2xl font-bold">{projectTitle}</h3>
         <p>{description}</p>
 

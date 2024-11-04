@@ -8,9 +8,12 @@ export default function Contact() {
             have questions, feel free to reach out!
         </p>
 
-       <ShineBorder className="font-plus mt-5 font-bold -z-1 relative bg-black text-white" color='coral'>
-          Say hi
-       </ShineBorder>
+      <a href="mailto:sariahkjackson@gmail.com">
+        <ShineBorder className="font-plus mt-5 font-bold -z-1 relative bg-black text-white" color='coral'>
+            Say hi
+        </ShineBorder>
+      </a>
+     
 
       
     </div>

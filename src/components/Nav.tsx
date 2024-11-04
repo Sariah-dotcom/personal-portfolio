@@ -10,12 +10,12 @@ export default function Nav() {
     <div className="fixed inset-0 flex items-end mb-5 justify-center z-999">
         <Dock direction="middle" className="border-2 border-coral rounded-full">
           <DockIcon>
-            <a href="#">
+            <a href="https://github.com/Sariah-dotcom" target="_blank">
               <FaGithub className="text-coral size-6" />
             </a>
           </DockIcon>
           <DockIcon>
-            <a href="#">
+            <a href="www.linkedin.com/in/sariahk-jackson-13j" target="_blank">
               <FaLinkedin className="text-coral size-6" />
             </a>
           </DockIcon>
