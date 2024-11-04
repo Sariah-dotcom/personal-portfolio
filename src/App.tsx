@@ -10,7 +10,7 @@ export default function App() {
     <div className='px-8 flex flex-col gap-12 lg:items-center'>
       <Hero />
       <Nav />
-      <div className='lg:w-[65%] flex flex-col gap-12 lg:gap-[8rem]'>
+      <div className='lg:w-[65%] flex flex-col gap-[8rem]'>
         <About />
         <Projects />
         <Contact />
