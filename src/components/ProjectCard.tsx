@@ -7,14 +7,15 @@ interface ProjectCardProps {
     description: string;
     siteLink: string;
     codeLink: string;
+    projectImg: string;
 }
 
-export default function ProjectCard({ projectTitle, description, siteLink, codeLink }: ProjectCardProps) {
+export default function ProjectCard({ projectTitle, description, siteLink, codeLink, projectImg }: ProjectCardProps) {
   return (
     <div className="flex flex-col gap-3 lg:flex lg:flex-row lg:gap-[3rem] lg:items-center">
       
       <a href={siteLink} target="_blank" rel="noopener noreferrer" className="lg:w-1/2 relative">
-        <div className="bg-white h-[15rem] rounded-[1rem]"></div>
+        <img src={projectImg} className="h-[15rem] rounded-[1rem]"/>
       </a>
       
       <div className="flex flex-col gap-3 mt-5 lg:w-1/2">
