@@ -6,11 +6,11 @@ export default function Projects() {
       <h2 className='text-white font-plus font-bold text-3xl mb-3 lg:mb-[2rem] lg:text-4xl'>projects</h2>
       <div className='flex flex-col gap-[3rem]'>
         <ProjectCard 
-          projectImg='/grownify.png'
-          projectTitle="The Maya Joy Blog"
-          description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec posuere odio.'
-          siteLink='#'
-          codeLink='#'
+          projectImg='/moda.png'
+          projectTitle="Moda"
+          description='Home page for a handbag retail store'
+          siteLink='https://moda-bags.vercel.app/'
+          codeLink='https://github.com/Sariah-dotcom/moda'
         />
 
         <ProjectCard 

@@ -14,7 +14,7 @@ export default {
   		},
   		fontFamily: {
   			plus: ['Plus Jakarta Sans','sans-serif'],
-  			inter: ['Inter','sans-serif']
+  			inter: ['Inter','sans-serif'],
   		},
   		colors: {
   			coral: '#FF7A6B',
