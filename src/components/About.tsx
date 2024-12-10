@@ -19,37 +19,37 @@ export default function About() {
             <div className='flex flex-wrap gap-5 py-3 lg:gap-10'>
                 
                 <div className='flex flex-col items-center'>
-                    <FaHtml5 className='text-coral size-10' />
+                    <FaHtml5 className='text-coral size-10 lg:size-16' />
                     <p className='text-coral mt-1'>HTML</p>
                 </div>
 
                 <div className='flex flex-col items-center'>
-                    <FaCss3Alt className='text-coral size-10' />
+                    <FaCss3Alt className='text-coral size-10 lg:size-16' />
                     <p className='text-coral mt-1'>CSS</p>
                 </div>
 
                 <div className='flex flex-col items-center'>
-                    <IoLogoJavascript className='text-coral size-10' />
+                    <IoLogoJavascript className='text-coral size-10 lg:size-16' />
                     <p className='text-coral mt-1'>Javascript</p>
                 </div>
 
                 <div className='flex flex-col items-center'>
-                    <FaReact className='text-coral size-10' />
+                    <FaReact className='text-coral size-10 lg:size-16' />
                     <p className='text-coral mt-1'>React</p>
                 </div>
 
                 <div className='flex flex-col items-center'>
-                    <RiTailwindCssFill className='text-coral size-10' />
+                    <RiTailwindCssFill className='text-coral size-10 lg:size-16' />
                     <p className='text-coral mt-1'>Tailwind</p>
                 </div>
 
                 <div className='flex flex-col items-center'>
-                    <SiMongodb className='text-coral size-10' />
+                    <SiMongodb className='text-coral size-10 lg:size-16' />
                     <p className='text-coral mt-1'>MongoDB</p>
                 </div>
 
                 <div className='flex flex-col items-center'>
-                    <FaFigma className='text-coral size-10' />
+                    <FaFigma className='text-coral size-10 lg:size-16' />
                     <p className='text-coral mt-1'>Figma</p>
                 </div>
             </div>

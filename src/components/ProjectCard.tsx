@@ -1,10 +1,11 @@
 import { LuExternalLink } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
+import { ReactNode } from 'react';
 
 
 interface ProjectCardProps {
     projectTitle: string;
-    description: string;
+    description: ReactNode;
     siteLink: string;
     codeLink: string;
     projectImg: string;
