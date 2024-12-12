@@ -2,13 +2,12 @@ import { LuExternalLink } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
 import { ReactNode } from 'react';
 
-
 interface ProjectCardProps {
-    projectTitle: string;
-    description: ReactNode;
-    siteLink: string;
-    codeLink: string;
-    projectImg: string;
+  projectTitle: string;
+  description: ReactNode;
+  siteLink: string;
+  codeLink: string;
+  projectImg: string;
 }
 
 export default function ProjectCard({ projectTitle, description, siteLink, codeLink, projectImg }: ProjectCardProps) {
@@ -26,7 +25,7 @@ export default function ProjectCard({ projectTitle, description, siteLink, codeL
         <div className="flex gap-10">
           <a href={siteLink} className="flex gap-2 text-coral items-center hover:text-white" target="_blank" rel="noopener noreferrer">
             <LuExternalLink />
-            <p className="text-coral hover:text-white">View live</p>
+            <p className="text-coral hover:text-white">View demo</p>
           </a>
 
            <a href={codeLink} className="flex gap-2 text-coral items-center hover:text-white" target="_blank" rel="noopener noreferrer">

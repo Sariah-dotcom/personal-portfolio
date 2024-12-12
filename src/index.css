@@ -69,6 +69,29 @@
 }
 
 a {
-  position: relative;
-  z-index: 5;
+  z-index: 2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF7A6B; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFF; 
 }

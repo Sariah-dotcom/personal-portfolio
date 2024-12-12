@@ -7,7 +7,7 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export default function Nav() {
   return (
-    <div className="fixed inset-0 flex items-end mb-5 justify-center z-999">
+    <div className="fixed inset-0 flex items-end mb-5 right-0 justify-center z-99">
         <Dock direction="middle" className="border-2 border-coral rounded-full">
           <DockIcon>
             <a href="https://github.com/Sariah-dotcom" target="_blank">
