@@ -15,7 +15,7 @@ export default function Nav() {
             </a>
           </DockIcon>
           <DockIcon>
-            <a href="www.linkedin.com/in/sariahk-jackson-13j" target="_blank">
+            <a href="https://www.linkedin.com/in/sariahk-jackson-13j/" target="_blank">
               <FaLinkedin className="text-coral size-6" />
             </a>
           </DockIcon>
