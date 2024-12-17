@@ -6,13 +6,27 @@ export default function Projects() {
     <div>
       <h2 className='text-white font-plus font-bold text-3xl mb-3 lg:mb-[2rem] lg:text-4xl'>projects</h2>
       <div className='flex flex-col gap-[3rem]'>
+      <ProjectCard 
+          projectImg='/bequia.png'
+          projectTitle="Bequia Tourism Association"
+          description={
+            <>
+              A beautiful redesign of the current <br /> {" "}
+              <a style={{textDecoration: "underline", position: "absolute"}} href="https://www.bequiatourism.com/default.htm" target="_blank" rel="noopener noreferrer">
+               Bequia Tourism Association website
+              </a>.
+            </> }
+          siteLink='https://bequiatourism.vercel.app/'
+          codeLink='https://github.com/Sariah-dotcom/bequia-tourism-authority'
+        />
+
         <ProjectCard 
           projectImg='/kayujati.png'
           projectTitle="Kayujati"
           description={
             <>
               Landing page for a furniture retailer based on the design by {" "}
-              <a style={{textDecoration: "underline"}} href="https://dribbble.com/shots/23553830-Kayujati-Furniture-Landing-Page" target="_blank" rel="noopener noreferrer">
+              <a style={{textDecoration: "underline", position: "absolute"}} href="https://dribbble.com/shots/23553830-Kayujati-Furniture-Landing-Page" target="_blank" rel="noopener noreferrer">
                 Anam Khoirul
               </a>.
             </> }
@@ -34,20 +48,6 @@ export default function Projects() {
           description = 'Branding and web design for a soon to be launched hair extension retail business.'
           siteLink='https://drive.google.com/file/d/1Xse8bJAVH4Mdt9xICTcBDOxMGi4Kpn9Y/view?usp=sharing'
           codeLink='#'
-        />
-
-        <ProjectCard 
-          projectImg='/videaste.png'
-          projectTitle="Videaste"
-          description={
-            <>
-              Landing page for a photography business based on the design by {" "}
-              <a style={{textDecoration: "underline"}} href="https://dribbble.com/shots/23090247-Videaste-Personal-Videographer-Portfolio-Landing-Page-Website" target="_blank" rel="noopener noreferrer">
-                Adhiar Subekti
-              </a>.
-            </> }
-          siteLink='https://videaste-rho.vercel.app/'
-          codeLink='https://github.com/Sariah-dotcom/videaste'
         />
 
         <ProjectCard 
