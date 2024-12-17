@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div>
       <h2 className='text-white font-plus font-bold text-3xl mb-3 lg:mb-[2rem] lg:text-4xl'>projects</h2>
-      <div className='flex flex-col gap-[3rem] items-center'>
+      <div className='flex flex-col gap-[3rem]'>
         <ProjectCard 
           projectImg='/bequia.png'
           projectTitle="Bequia Tourism Association"
@@ -38,7 +38,7 @@ export default function Projects() {
           projectImg='/cocoa-catcher.png'
           projectTitle="Cocoa Catcher"
           description='A fun, Christmas themed game made with Python'
-          siteLink='https://moda-bags.vercel.app/'
+          siteLink='https://drive.google.com/file/d/1myqROqLJQwYT158VSYQsTPYKRGX40Qce/view?usp=sharing'
           codeLink='https://github.com/Sariah-dotcom/cocoa-catcher'
         />
 
