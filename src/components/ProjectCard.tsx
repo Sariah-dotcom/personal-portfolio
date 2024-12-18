@@ -1,6 +1,7 @@
 import { LuExternalLink } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa";
 import { ReactNode } from 'react';
+import TechStack from './TechStack'
 
 interface ProjectCardProps {
   projectTitle: string;
@@ -8,9 +9,10 @@ interface ProjectCardProps {
   siteLink: string;
   codeLink: string;
   projectImg: string;
+  techStack: { id: string | number; techStack: string }[];
 }
 
-export default function ProjectCard({ projectTitle, description, siteLink, codeLink, projectImg }: ProjectCardProps) {
+export default function ProjectCard({ projectTitle, description, siteLink, codeLink, projectImg, techStack }: ProjectCardProps) {
   return (
     <div className="flex flex-col gap-3 lg:flex lg:flex-row lg:gap-[3rem] lg:items-center">
       
@@ -20,6 +22,7 @@ export default function ProjectCard({ projectTitle, description, siteLink, codeL
       
       <div className="flex flex-col gap-3 mt-5 lg:w-1/2">
         <h3 className="font-plus text-white text-2xl font-bold">{projectTitle}</h3>
+        <TechStack techStack={techStack} />
         <p>{description}</p>
 
         <div className="flex gap-10">
