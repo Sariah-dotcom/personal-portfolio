@@ -4,7 +4,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiGreensock } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
+// import { SiMongodb } from "react-icons/si";
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
