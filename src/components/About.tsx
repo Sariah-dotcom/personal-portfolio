@@ -93,10 +93,10 @@ export default function About() {
                     <p className='text-coral mt-1'>Tailwind</p>
                 </div>
 
-                <div className='flex flex-col items-center'>
+                {/* <div className='flex flex-col items-center'>
                     <SiMongodb className='text-coral size-10 lg:size-16' />
                     <p className='text-coral mt-1'>MongoDB</p>
-                </div>
+                </div> */}
 
                 <div className='flex flex-col items-center'>
                     <FaFigma className='text-coral size-10 lg:size-16' />
