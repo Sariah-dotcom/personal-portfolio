@@ -59,7 +59,7 @@
 @layer base {
   
   body {
-    background-color: black;
+    background-color: #0f0f0f;
   }
 
   p{
@@ -83,7 +83,7 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #000; 
+  background: #0f0f0f; 
 }
  
 /* Handle */
