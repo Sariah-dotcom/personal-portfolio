@@ -55,7 +55,7 @@ export default function About() {
         <div className="mb-[8rem]">
             <h2 className='about-text text-white font-plus font-bold text-3xl mb-3 lg:mb-[2rem] lg:text-4xl'>about</h2>
             <p className="about-text">I'm Sariah Jackson, a recent Computer Science grad from St.Vincent & the Grenadines<span className='lg:hidden ml-2'>🇻🇨</span>.
-            <br /><br />Before university, I took a full-stack web development course and found my passion for frontend development.
+            <br /><br />Before university, I took a full-stack web development course and found my passion for front-end development.
             When I'm not coding, I'm probably crocheting, reading sci-fi or falling off my skateboard.</p>
         </div>
 
