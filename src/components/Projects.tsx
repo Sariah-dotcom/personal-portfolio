@@ -29,7 +29,7 @@ export default function Projects() {
           projectTitle="Qrates"
           description={
             <>
-              A recreation of the qrates.com landing page based on a challenge by {" "}
+              A recreation of the qrates.com landing page based on a challenge by <br /> {" "}
               <a style={{textDecoration: "underline", position: "absolute"}} href="https://www.frontendpractice.com/projects/qrates" target="_blank" rel="noopener noreferrer">
                 Frontend Practice
               </a>.
