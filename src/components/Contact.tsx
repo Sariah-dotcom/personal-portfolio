@@ -35,7 +35,7 @@ export default function Contact() {
         </p>
 
       <a href="mailto:sariahkjackson@gmail.com">
-        <ShineBorder className="font-plus mt-5 font-bold -z-1 relative bg-black text-white" color='coral'>
+        <ShineBorder className="font-plus mt-5 font-bold -z-1 relative bg-greyD text-white" color='coral'>
             Say hi
         </ShineBorder>
       </a>
