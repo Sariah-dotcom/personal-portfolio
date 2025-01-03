@@ -17,7 +17,8 @@ export default {
   			inter: ['Inter','sans-serif'],
   		},
   		colors: {
-  			coral: '#FF7A6B',
+			coral: '#F38B63',
+  			// coral-x: '#FF7A6B',
   			white: '#FFF',
 			greyD: '#0F0F0F',
   			background: 'hsl(var(--background))',
