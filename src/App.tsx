@@ -10,7 +10,7 @@ export default function App() {
     <div className='flex flex-col gap-12 lg:items-center'>
       <HeroTwo />
       <Nav />
-      <div className='px-8 lg:w-[65%] flex flex-col gap-[8rem]'>
+      <div className="flex px-8 md:px-20 flex-col items-center gap-[8rem] w-full lg:w-3/4 mx-auto">
         <About />
         <Projects />
         <Contact />

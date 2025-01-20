@@ -8,20 +8,20 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 export default function Nav() {
   return (
     <div className="fixed inset-0 flex items-end mb-5 right-0 justify-center z-99">
-        <Dock direction="middle" className="border-2 border-coral rounded-full">
+        <Dock direction="middle" className="border-[1px] border-grey rounded-full">
           <DockIcon>
             <a href="https://github.com/Sariah-dotcom" target="_blank">
-              <FaGithub className="text-coral size-6" />
+              <FaGithub className="text-grey size-6" />
             </a>
           </DockIcon>
           <DockIcon>
             <a href="https://www.linkedin.com/in/sariahk-jackson-13j/" target="_blank">
-              <FaLinkedin className="text-coral size-6" />
+              <FaLinkedin className="text-grey size-6" />
             </a>
           </DockIcon>
           <DockIcon>
             <a href="mailto:sariahkjackson@gmail.com">
-              <MdEmail className="text-coral size-6" />
+              <MdEmail className="text-grey size-6" />
             </a>
           </DockIcon>
         </Dock>

@@ -8,7 +8,7 @@ export default function TechStack({techStack}: TechStackProps) {
       {techStack.map((stack) => (
         <button
           key={stack.id}
-          className="font-inter border border-coral text-coral py-1 px-3 rounded-full"
+          className="font-inter border border-grey text-grey py-1 px-3 rounded-full"
         >
           {stack.techStack}
         </button>

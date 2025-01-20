@@ -20,8 +20,8 @@ export default function Projects() {
 
  
   return (
-    <div>
-      <h2 className='text-white font-plus font-bold text-3xl mb-3 lg:mb-[2rem] lg:text-4xl'>projects</h2>
+    <section>
+      <h2 className='font-bold text-3xl mb-3 lg:mb-[2rem] lg:text-4xl'>projects</h2>
       <div className='flex flex-col gap-[3rem]'>
         <ProjectCard 
           techStack={project1Stack}
@@ -29,8 +29,8 @@ export default function Projects() {
           projectTitle="Qrates"
           description={
             <>
-              A recreation of the qrates.com landing page based on a challenge by <br /> {" "}
-              <a style={{textDecoration: "underline", position: "absolute"}} href="https://www.frontendpractice.com/projects/qrates" target="_blank" rel="noopener noreferrer">
+              A recreation of the qrates.com landing page based on a challenge by {" "}
+              <a style={{textDecoration: "underline"}} href="https://www.frontendpractice.com/projects/qrates" target="_blank" rel="noopener noreferrer">
                 Frontend Practice
               </a>.
             </> }
@@ -53,7 +53,7 @@ export default function Projects() {
           codeLink='https://github.com/Sariah-dotcom/bequia-tourism-authority'
         />
 
-        {/* <ProjectCard 
+        <ProjectCard 
           techStack={project2Stack}
           projectImg='/kayujati.png'
           projectTitle="Kayujati"
@@ -66,7 +66,7 @@ export default function Projects() {
             </> }
           siteLink='https://kayujatifurniture.vercel.app/'
           codeLink='https://github.com/Sariah-dotcom/kayujati'
-        /> */}
+        />
 
         <ProjectCard
           techStack={project3Stack}
@@ -94,6 +94,6 @@ export default function Projects() {
           codeLink='#'
         /> */}
       </div>
-    </div>
+    </section>
   )
 }
